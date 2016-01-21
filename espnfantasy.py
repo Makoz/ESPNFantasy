@@ -104,6 +104,9 @@ for i in range(len(players)):
   for s in teamPlayers:
     l = s.get_text()
     l = l.replace(u'\xa0', u' ')
+    
+    #Remove injured players having their names starred to enable consistent parsing
+    l = l.replace(u'*', '') 
     players[i].addPlayer(l)
 
   pprint (vars(players[i]))
