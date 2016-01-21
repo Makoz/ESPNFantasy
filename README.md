@@ -29,4 +29,4 @@ Current sample output for a player so far:
                  'C.J. Miles, Ind SF, SG']}
 
 To run:
-python3 espnFantasy.py <login> <password>
+python3 espnFantasy.py login password
