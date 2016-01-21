@@ -3,6 +3,7 @@ Playing around with python scraping + fantasy bball
 
 Uses python 3, selenium for help in logging into the iframe / basic navigation and soup for some of the parsing.
 Current sample output for a player so far:
+
 {'Assists': '88',
  'Blocks': '9',
  'Field Goal Percentage': '.4502',
