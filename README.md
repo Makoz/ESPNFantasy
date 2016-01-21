@@ -29,4 +29,5 @@ Current sample output for a player so far:
                  'C.J. Miles, Ind SF, SG']}
 
 To run:
+Replace the driver.get() part with your espn basketball league url. 
 python3 espnFantasy.py login password
